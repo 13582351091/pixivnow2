@@ -55,8 +55,7 @@ mixin repoLink
 
     card(title="联系站长")
       p
-        | Telegram：
-        +9402631096
+        | Telegram：+9402631096
 </template>
 
 <script lang="ts" setup>

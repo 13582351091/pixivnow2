@@ -21,8 +21,7 @@ footer.global-footer
           external-link(:href="`https://discord.gg/zxAX5Jh`").
         li
           | Twitter：
-          external-link(:href="`https://twitter.com/rogerxa77977892?t=KbR3EkHmiUxjxvHiFpsb7w&s=09
-`").
+          external-link(:href="`https://twitter.com/rogerxa77977892?t=KbR3EkHmiUxjxvHiFpsb7w&s=09`").
     //- section.flex-1
     //-   h4 社交媒体
     //-     p Placeholder
