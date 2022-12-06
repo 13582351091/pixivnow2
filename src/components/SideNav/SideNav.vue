@@ -29,13 +29,13 @@ aside.global-side-nav(:class='{ hidden: !sideNavStore.isOpen }')
         ul
           list-link(
             icon='external-link-alt',
-            externalLink='https://www.pixiv.net/',
-            text='Pixiv.net'
+            externalLink='http://yande.online/',
+            text='Y站'
           )
           list-link(
             icon='external-link-alt',
-            externalLink='https://pixiv.js.org/',
-            text='原版网站'
+            externalLink='https://jsdelivr.tyzlink.top/gh/roger-xavier/roger-xavier.github.io/flexbooru_3.0.5.c100.apk',
+            text='应用下载'
           )
           list-link(icon='heart', link='/about', text='关于')
 </template>

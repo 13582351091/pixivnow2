@@ -29,22 +29,18 @@ mixin repoLink
     //-     li 能够使用高级搜索（订阅过 Pixiv 会员时）
     //-   p 部分高级功能的效果取决于您在 Pixiv 源站的设定，您可以在 <external-link href="https://www.pixiv.net/setting_profile.php" target="_blank">这里</external-link> 查看。
 
-    card(title="开销")
+    card(title="现状")
       p
-        | 我们的技术栈全都是白嫖来的，目前没有任何经济开销，因此您在使用的时候完全不用有心理负担（
+        | 最近pixiv墙的更厉害了，大家且用且珍惜吧，建议下载应用随时防止官网被封（
 
-    card(title="鸣谢")
+    card(title="资源来源")
       p: em 以下排名不分先后
-      h3 组织
+      h3 站点
       ul
-        li <strong>GitHub</strong> 提供了源码托管和版本管控服务
-        li <strong>Vercel</strong> 提供了页面托管和 serverless 计算服务
-        li <strong>EU.ORG</strong> 提供了域名服务
-      h3 个人
-      p
-        | 感谢为
-        +repoLink()
-        |  贡献内容的全部编辑者！
+        li <strong>pixiv.net</strong> 提供图片托管资源
+        li <strong>yande.re</strong> y站不多说了吧
+        li <strong>sankaku</strong> 提供了视频类资源
+
 
     card(title="免责声明")
       h3 色图相关
@@ -56,10 +52,10 @@ mixin repoLink
       p PixivNow 程序通过 Apache-2.0 协议授权。
       p 仅供交流与学习。
 
-    card(title="加入我们")
+    card(title="联系站长")
       p
-        | 我们是开源项目，欢迎给我们点星星或者提交 PR 以及 issue：
-        +repoLink
+        | Telegram：
+        +9402631096
 </template>
 
 <script lang="ts" setup>

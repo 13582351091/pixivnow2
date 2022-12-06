@@ -11,22 +11,24 @@ footer.global-footer
         li
           router-link(to="/about") 关于本站
     section.flex-1
-      h4 关注我们
+      h4 联系站长
       ul
         li
-          | FreeNow 团队：
-          external-link(:href="`https://github.com/${GITHUB_OWNER}`") Free Now Tech.
+          | Telegram：
+          external-link(:href="`https://t.me/Lcfstar`").
         li
-          | PixivNow 团队：
-          router-link.plain(to="/users/32338232") Dragon Fish
-          | 、
-          router-link.plain(to="/users/15552366") MysticNebula70
+          | Discord：
+          external-link(:href="`https://discord.gg/zxAX5Jh`").
+        li
+          | Twitter：
+          external-link(:href="`https://twitter.com/rogerxa77977892?t=KbR3EkHmiUxjxvHiFpsb7w&s=09
+`").
     //- section.flex-1
     //-   h4 社交媒体
     //-     p Placeholder
     section.flex-1
       h4 友情链接
-      div 快来 GitHub issues 交换友链吧~
+      div 快来联系站长 交换友链吧~
       //- ul
       //-   li 链接
 
