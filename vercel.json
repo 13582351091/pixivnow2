@@ -1,0 +1,23 @@
+{
+  "github": {
+    "silent": true
+  },
+  "framework": "vue",
+  "rewrites": [
+    {
+      "source": "/:__PREFIX(~)/:__PATH(.+)",
+      "destination": "/api/image"
+    },
+    {
+      "source": "/:__PREFIX(ajax|rpc|.+\\.php)/:__PATH*",
+      "destination": "/api/http"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/-/:__PATH*",
+      "destination": "https://purple-leaf-6f5e.hanryr-dios482992030.workers.dev/:__PATH"
+    }
+  ],
+  "headers": []
+}
