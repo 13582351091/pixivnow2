@@ -32,5 +32,5 @@ export function resolveSrc(src?: string | null) {
   if (src.startsWith('/~/')) {
     return 'https://pixiv.cocomi.eu.org' + src
   }
-  return 'https://nfn.kanata.ml/pximg' + src.replace('/-/', '/')
+  return 'https://purple-leaf-6f5e.hanryr-dios482992030.workers.dev' + src.replace('/-/', '/')
 }

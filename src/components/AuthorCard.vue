@@ -27,7 +27,7 @@ import { resolveSrc } from '../config';
 const props = defineProps<{
   user: User
 }>()
-const API = ref('http://assets.flexbooru.art')
+const API = ref('http://acg.pixiv.digital')
 </script>
 
 <style scoped lang="sass">
