@@ -16,7 +16,7 @@
   "redirects": [
     {
       "source": "/-/:__PATH*",
-      "destination": "http://pximg.pixivpn.site/:__PATH"
+      "destination": "http://pximg.yande.online/:__PATH"
     }
   ],
   "headers": []
