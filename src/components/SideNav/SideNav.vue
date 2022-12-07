@@ -34,7 +34,7 @@ aside.global-side-nav(:class='{ hidden: !sideNavStore.isOpen }')
           )
           list-link(
             icon='external-link-alt',
-            externalLink='https://jsdelivr.tyzlink.top/gh/roger-xavier/roger-xavier.github.io/flexbooru_3.0.5.c100.apk',
+            externalLink='http://pixiv.flexbooru.art/pixiv.apk',
             text='应用下载'
           )
           list-link(icon='heart', link='/about', text='关于')
