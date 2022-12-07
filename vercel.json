@@ -16,7 +16,7 @@
   "redirects": [
     {
       "source": "/-/:__PATH*",
-      "destination": "https://purple-leaf-6f5e.hanryr-dios482992030.workers.dev/:__PATH"
+      "destination": "http://pximg.pixivpn.site/:__PATH"
     }
   ],
   "headers": []

@@ -17,7 +17,7 @@ export default async (req: VercelRequest, res: VercelResponse) => {
     case 'image':
     case '-':
       // domain = 'i'
-      return res.redirect(`https://purple-leaf-6f5e.hanryr-dios482992030.workers.dev/${__PATH}`)
+      return res.redirect(`http://pximg.pixivpn.site/${__PATH}`)
     case '~':
       domain = 's'
       break
