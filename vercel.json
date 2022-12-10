@@ -16,7 +16,7 @@
   "redirects": [
     {
       "source": "/-/:__PATH*",
-      "destination": "http://pximg.yande.online/:__PATH"
+      "destination": "https://pximg.yande.online/:__PATH"
     }
   ],
   "headers": []

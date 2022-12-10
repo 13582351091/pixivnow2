@@ -32,5 +32,5 @@ export function resolveSrc(src?: string | null) {
   if (src.startsWith('/~/')) {
     return 'https://pixiv.cocomi.eu.org' + src
   }
-  return 'http://pximg.yande.online' + src.replace('/-/', '/')
+  return 'https://pximg.yande.online' + src.replace('/-/', '/')
 }
