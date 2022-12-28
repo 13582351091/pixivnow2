@@ -25,7 +25,7 @@ aside.global-side-nav(:class='{ hidden: !sideNavStore.isOpen }')
       //-     )
 
       .group
-        .title PixivNow
+        .title 更多年龄向
         ul
           //- list-link(
           //-   icon='external-link-alt',
@@ -35,7 +35,7 @@ aside.global-side-nav(:class='{ hidden: !sideNavStore.isOpen }')
           list-link(
             icon='external-link-alt',
             externalLink='http://pixiv.flexbooru.art/pixiv.apk',
-            text='应用下载&&更多年龄向'
+            text='应用下载'
           )
           list-link(icon='heart', link='/about', text='关于')
 </template>
