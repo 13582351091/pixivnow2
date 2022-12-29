@@ -15,14 +15,14 @@ aside.global-side-nav(:class='{ hidden: !sideNavStore.isOpen }')
           //- list-link(icon='user', link='', text='用户')
           list-link(icon='crown', link='/ranking', text='排行榜')
 
-      //- .group
-      //-   .title Pixiv 令牌
-      //-   ul
-      //-     list-link(
-      //-       icon='fingerprint',
-      //-       link='/login',
-      //-       :text='userStore.isLoggedIn ? "查看令牌" : "设置令牌"'
-      //-     )
+      .group
+        .title Pixiv Help
+        ul
+          list-link(
+            icon='fingerprint',
+            externalLink='http://pixiv.digital',
+            text='VPN'
+          )
 
       .group
         .title 更多年龄向
