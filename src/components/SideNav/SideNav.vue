@@ -20,8 +20,8 @@ aside.global-side-nav(:class='{ hidden: !sideNavStore.isOpen }')
         ul
           list-link(
             icon='fingerprint',
-            externalLink='http://pixiv.digital',
-            text='VPN'
+            externalLink='http://app.chatgpts.lol/chatgpt.apk',
+            text='chatgpt'
           )
 
       .group
@@ -34,7 +34,7 @@ aside.global-side-nav(:class='{ hidden: !sideNavStore.isOpen }')
           //- )
           list-link(
             icon='external-link-alt',
-            externalLink='http://pixiv.flexbooru.art/pixiv.apk',
+            externalLink='http://app.pixivs.cn/pixiv.apk',
             text='应用下载'
           )
           list-link(icon='heart', link='/about', text='关于')
